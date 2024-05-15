@@ -6,9 +6,9 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/page1')
-def page1():
-    return render_template('page1.html')
+@app.route('/doktori')
+def doktori():
+    return render_template('doktori.html')
 
 @app.route('/page2')
 def page2():
