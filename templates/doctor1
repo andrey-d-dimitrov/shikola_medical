@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Милена Спасова</title>
+    <title>д-р Милена Спасова</title>
 
     <style>
   
@@ -37,7 +37,7 @@
 <body>
     <div class="navbar">
         <img src="https://superdoc.bg/photos/doctors/small/rDl1gHzcHdCQvBw9m1UcLK4j9Lpn2qCqHK9KLFTx.jpg" alt="Milena Spasowa" width="104" height="142">
-        <h1><b>Милена Спасова</b></h1>
+        <h1><b>д-р Милена Спасова</b></h1>
         <p><i>Акушер-гинеколог</i></p>
     </div>
 
