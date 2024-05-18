@@ -8,7 +8,7 @@ def home():
 
 @app.route('/page1')
 def page1():
-    return render_template('page1.html')
+    return render_template('filkewlkd.html')
 
 @app.route('/page2')
 def page2():
