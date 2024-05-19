@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -73,6 +72,11 @@ body {
 .content h2, .content h3, .content h4 {
     margin-bottom: 15px;
     color: #8a2be2;
+    cursor: pointer; /* Добавяне на курсора */
+}
+
+.content p, .content ul {
+    display: none; /* Скриване на съдържанието */
 }
 
 .content p {
