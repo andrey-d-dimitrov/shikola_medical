@@ -65,10 +65,18 @@ body {
     padding: 30px;
     max-width: 800px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center; /* Center the text */
     background-image: url('static/shikovamedicalcenter.jpg');
     background-size: cover;
     background-position: center;
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.content h1.center-name {
+    margin-bottom: 20px; /* Add margin to the bottom */
 }
 
 .content h2, .content h3, .content h4 {
