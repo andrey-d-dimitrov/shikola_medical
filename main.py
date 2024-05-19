@@ -2,6 +2,10 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+@app.route('/forus')
+def forus():
+    return render_template('filkewlkd.html')
+
 @app.route('/')
 def index():
     return render_template('home.html')
@@ -10,15 +14,9 @@ def index():
 def home():
     return render_template('home.html')
 
-<<<<<<< HEAD
 @app.route('/doctor1')
 def about():
     return render_template('doctor1.html')
-=======
-@app.route('/page1')
-def page1():
-    return render_template('filkewlkd.html')
->>>>>>> for-us
 
 
 @app.route('/doctor2')

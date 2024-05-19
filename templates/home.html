@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Example</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Shikova Medical Center</title>
+    <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
     
@@ -13,14 +13,18 @@
     <nav class="navbar" id="navbar">
         <ul class="navbar-links" id="navbar-links">
             <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('forus') }}">forus</a></li>
             <li><a href="{{ url_for('doctori') }}">Доктори</a></li>
         </ul>
     </nav>
 
     <div class="content">
+        <div class="slide">
+            <h1 class="center-name">Шикова <br>Медикъл</h1>
+        </div>
+        <img src="static\shikovamedicalceneter.jpg" alt="Shikova Medical Center Image">
     </div>
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="static\script.js"></script>
 </body>
 </html>
