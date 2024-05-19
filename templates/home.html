@@ -3,37 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <style>
-        .navbar {
-            overflow: hidden;
-            background-color: #333333;
-        }
-
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .navbar a:hover {
-            background-color: #dddddd;
-            color: black;
-        }
-    </style>
+    <title>Navigation Example</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <div class="navbar" id="header">
-        <a href="/">Home</a>
-        <a href="/page1">Page 1</a>
-        <a href="/page2">Page 2</a>
-        <a href="/page3">Page 3</a>
-        <a href="/page4">Page 4</a>
+    
+    <div class="navbar-toggle-btn" id="navbarToggleBtn" onclick="toggleNavbar()">...</div>
+
+    <nav class="navbar" id="navbar">
+        <ul class="navbar-links" id="navbar-links">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
     </div>
 
-
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
