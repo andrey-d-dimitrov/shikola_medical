@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Д-р Мария Илиева</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="static\styles2.css">
-    <script src="static\script2.js" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles2.css') }}">
+    <script src="{{ url_for('static', filename='script2.js') }}" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="navbar">
             <div class="navbar-content">
-                <img src="static/maria_ilieva.jpg" alt="Д-р Мария Илиева" width="104" height="142">
+                <img src="{{ url_for('static', filename='doctor1.jpg') }}" alt="Д-р Мария Илиева" width="104" height="142">
                 <div class="navbar-text">
                     <h1>Д-р Мария Илиева</h1>
                     <p>Акушер-гинеколог</p>
