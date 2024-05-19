@@ -10,9 +10,15 @@ def index():
 def home():
     return render_template('home.html')
 
+<<<<<<< HEAD
 @app.route('/doctor1')
 def about():
     return render_template('doctor1.html')
+=======
+@app.route('/page1')
+def page1():
+    return render_template('filkewlkd.html')
+>>>>>>> for-us
 
 
 @app.route('/doctor2')
