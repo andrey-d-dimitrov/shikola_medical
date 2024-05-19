@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Д-р Мария Илиева</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles2.css') }}">
+    <script src="{{ url_for('static', filename='script2.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-content">
+                <img src="{{ url_for('static', filename='doctor1.jpg') }}" alt="Д-р Мария Илиева" width="104" height="142">
+                <div class="navbar-text">
+                    <h1>Д-р Мария Илиева</h1>
+                    <p>Акушер-гинеколог</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Д-р Мария Илиева е специалист акушер-гинеколог с дългогодишен опит. Извършва диагностика и лечение на гинекологични заболявания, проследяване на бременност и ултразвукови изследвания.</p>
+
+            <h2 id="education">Образование</h2>
+            <p>Завършва Медицински университет София и има придобита специалност по акушерство и гинекология.</p>
+
+            <h3 id="qualifications">Квалификации</h3>
+            <ul>
+                <li>Специализация по акушерство и гинекология в университетска болница в Германия</li>
+                <li>Сертификати по ултразвукова диагностика, хистероскопия и лапароскопия</li>
+                <li>Участие в международни конгреси и курсове</li>
+                <li>Член на Български лекарски съюз и Българско дружество по акушерство и гинекология</li>
+            </ul>
+
+            <h4 id="biography">Биография</h4>
+            <p>Д-р Илиева работи в МБАЛ Надежда София. Владее английски и немски език. Освен професионалните си ангажименти, тя редовно участва в обучителни курсове и конференции, за да подобри своята квалификация и да предостави най-добрата грижа на своите пациенти.</p>
+        </div>
+    </div>
+</body>
+</html>
